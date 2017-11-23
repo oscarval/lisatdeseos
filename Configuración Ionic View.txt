@@ -1,0 +1,14 @@
+Ionic 3
+// Configuramos el backend de Ionic con pro ya que upload está deprecated el 1 Enero 2018
+ionic config set -g backend pro
+// iniciamos sesión (yes a todo para consigurar SSH)
+ionic login
+// linkamos la aplicación con Ionic App
+ionic link
+  .- Create New App
+  .- Damos un nombre a la app
+  .- Esta nos añadirá el repository remoto donde hacer los push
+// realizar el primer push
+git push --set-upstream origin master
+
+// Bajarnos Ionic View y logearnos
