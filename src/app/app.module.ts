@@ -13,6 +13,7 @@ import { ListaDeseosService } from './services/lista-deseos.service';
 
 // Pipes
 import { PlaceHolderPipe } from './pipes/placeholder.pipe';
+import { PendientesPipe } from './pipes/pendientes.pipe';
 
 
 import { PendientesComponent } from '../pages/pendientes/pendientes.component';
@@ -30,7 +31,8 @@ import { DetalleComponent } from '../pages/detalle/detalle.component';
     TerminadosComponent,
     AgregarComponent,
     DetalleComponent,
-    TabsPage
+    TabsPage,
+    PendientesPipe
 
   ],
   imports: [
